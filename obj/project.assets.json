@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\waleed\\source\\repos\\Ecommerce website\\Ecommerce website.csproj",
+      "projectUniqueName": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Ecommerce website.csproj",
       "projectName": "Ecommerce website",
-      "projectPath": "C:\\Users\\waleed\\source\\repos\\Ecommerce website\\Ecommerce website.csproj",
+      "projectPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Ecommerce website.csproj",
       "packagesPath": "C:\\Users\\waleed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\waleed\\source\\repos\\Ecommerce website\\obj\\",
+      "outputPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\waleed\\AppData\\Roaming\\NuGet\\NuGet.Config",
