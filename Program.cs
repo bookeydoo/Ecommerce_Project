@@ -1,4 +1,4 @@
-﻿using Ecommerce.Areas.data;
+using Ecommerce.Areas.data;
 using Ecommerce.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
