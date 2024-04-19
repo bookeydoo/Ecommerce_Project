@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ifhg\\OneDrive\\Desktop\\Oop proj2 try 2\\Ecommerceprojectt\\Ecommerce\\Ecommerce.csproj": {}
+    "C:\\Users\\waleed\\source\\repos\\E_5ra\\Ecommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ifhg\\OneDrive\\Desktop\\Oop proj2 try 2\\Ecommerceprojectt\\Ecommerce\\Ecommerce.csproj": {
+    "C:\\Users\\waleed\\source\\repos\\E_5ra\\Ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ifhg\\OneDrive\\Desktop\\Oop proj2 try 2\\Ecommerceprojectt\\Ecommerce\\Ecommerce.csproj",
+        "projectUniqueName": "C:\\Users\\waleed\\source\\repos\\E_5ra\\Ecommerce.csproj",
         "projectName": "Ecommerce",
-        "projectPath": "C:\\Users\\ifhg\\OneDrive\\Desktop\\Oop proj2 try 2\\Ecommerceprojectt\\Ecommerce\\Ecommerce.csproj",
-        "packagesPath": "C:\\Users\\ifhg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ifhg\\OneDrive\\Desktop\\Oop proj2 try 2\\Ecommerceprojectt\\Ecommerce\\obj\\",
+        "projectPath": "C:\\Users\\waleed\\source\\repos\\E_5ra\\Ecommerce.csproj",
+        "packagesPath": "C:\\Users\\waleed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\waleed\\source\\repos\\E_5ra\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ifhg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\waleed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,13 +57,17 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
