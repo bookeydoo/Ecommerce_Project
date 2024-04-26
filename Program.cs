@@ -1,5 +1,9 @@
 using ecommerce_api.Data;
+using ecommerce_api.Interfaces;
+using ecommerce_api.Repositaries;
 using Microsoft.EntityFrameworkCore;
+using oopAPI.Interfaces;
+using oopAPI.Repositaries;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +13,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IItemsRepositary,ItemsRepositary>();
+builder.Services.AddScoped<IUserDataRepo,UserDataRepo>();
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
