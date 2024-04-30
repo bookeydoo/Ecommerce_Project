@@ -1,4 +1,4 @@
-﻿using WebApi.Classes;
+using WebApi.Classes;
 
 namespace WebApi.Interfaces
 {

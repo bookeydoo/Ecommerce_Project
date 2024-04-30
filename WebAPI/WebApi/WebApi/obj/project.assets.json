@@ -1052,11 +1052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Apifinal\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Apifinal\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\waleed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Apifinal\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\waleed\\AppData\\Roaming\\NuGet\\NuGet.Config",

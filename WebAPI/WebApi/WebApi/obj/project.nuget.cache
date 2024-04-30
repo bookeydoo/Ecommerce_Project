@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xhAqvo3HjCPJg6si9LRXkHKol5wKVBLSBupzFwG0dx5+oA5xvh4I6f5iLhzQXpm6XECggvlFrrsf4zFjmsyHXg==",
+  "dgSpecHash": "CpENZANN3A2s8tbeDVTM5YP7IyGkMykRs7xwxXkyedzdg95xCl4DgdRBoedEG6IN4L/RGkWhq6xV1NWnFmo07A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\Apifinal\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\waleed\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\waleed\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
