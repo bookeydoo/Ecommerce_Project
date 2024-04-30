@@ -12,6 +12,10 @@ namespace WebApi.Service
     public class ItemsService : IitemsInterface
     {
         private readonly string _filepath;
+        public ItemsService(string filepath)   //will try to get file path
+{
+    var _filepath = filepath;
+}
        
         public ICollection<Items> GetItems()
         {
