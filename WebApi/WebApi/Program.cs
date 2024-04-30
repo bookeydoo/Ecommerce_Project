@@ -1,12 +1,18 @@
 using WebApi.Service;
 using WebApi.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
- builder.Services.AddScoped<IitemsInterface, ItemsService>();
+builder.Services.AddScoped<IitemsInterface>(provider =>
+{
+    var filePath = "C:\\Users\\ifhg\\OneDrive\\Desktop\\Apifinal\\WebApi\\WebApi\\itemsfile.json"; //download json file and type your own path
+    return new ItemsService(filePath);
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
