@@ -2,9 +2,9 @@ using WebApi.Classes;
 
 namespace WebApi.Interfaces
 {
-    public class UserdataInterface
+    public interface UserdataInterface
     {
-        public ICollection<userdata> Gituserdata();//defining get items to return  many items as objects
+       public ICollection<userdata> GetUserdatas();//defining get items to return  many items as objects
 
     }
 }

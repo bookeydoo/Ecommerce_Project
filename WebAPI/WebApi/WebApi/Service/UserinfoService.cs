@@ -12,7 +12,7 @@ namespace WebApi.Service
             {
                 _Userfilepath = filepath;
             }
-            public ICollection<userdata> Gituserdata()
+            public ICollection<userdata> GetUserdatas()
             {
                 try
                 {

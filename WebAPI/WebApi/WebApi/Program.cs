@@ -11,13 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IitemsInterface>(provider =>
 {
-    var filePath = "C:\\Users\\ifhg\\OneDrive\\Desktop\\Apifinal\\WebApi\\WebApi\\itemsfile.json"; //download json file and type your own path
+    var filePath = "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\itemsfile.json"; //download json file and type your own path
     return new ItemsService(filePath);
 });
 
 builder.Services.AddScoped<UserdataInterface>(provider =>
 {
-    var filePath = "C:\\Users\\ifhg\\OneDrive\\Desktop\\Apifinal\\WebApi\\WebApi\\userdatafile.json"; //download json file and type your own path
+    var filePath = "C:\\Users\\waleed\\OneDrive\\Documents\\GitHub\\Ecommerce_Project\\WebAPI\\WebApi\\WebApi\\userdata.json"; //download json file and type your own path
     return new UserinfoService(filePath);
 });
 

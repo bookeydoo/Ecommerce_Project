@@ -20,7 +20,7 @@ public class UserinfoController : ControllerBase
     [HttpGet]
     public IActionResult Getuserdata()
     {
-        var item = _UserService.GetUserdata();
+        var item = _UserService.GetUserdatas();
         return Ok(item);
     }
 }
